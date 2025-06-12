@@ -1,0 +1,75 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/NguyenVu2006/Vudeptrai/blob/main/Welcome_To_Colab.b%C3%A0i2\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def converts_temperature() :\n",
+        "  print(\"Bạn muốn thay đổi nhiệt độ\")\n",
+        "  print(\"1.Từ nhiệt độ C sang F\")\n",
+        "  print(\"2.Từ nhiệt độ F sang C\")\n",
+        "\n",
+        "chose = int(input(\"Nhập lựa chọn của bạn (1 hoặc 2): \"))\n",
+        "\n",
+        "choice = input(\"Bạn muốn chọn gì (1 hoặc 2)? \")\n",
+        "\n",
+        "if choice == '1':\n",
+        "    print(\"Bạn chọn 1\")\n",
+        "elif choice == '2':\n",
+        "    print(\"Bạn chọn 2\")\n",
+        "else:\n",
+        "    print(\"Lựa chọn không hợp lệ.\")\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "m6GAv-q0q84a",
+        "outputId": "bf9db838-f2a8-4ce2-871c-0b563a053bc5"
+      },
+      "execution_count": 66,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Nhập lựa chọn của bạn (1 hoặc 2): 1\n",
+            "Bạn muốn chọn gì (1 hoặc 2)? 1\n",
+            "Bạn chọn 1\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Welcome To Colab",
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
